@@ -19,7 +19,7 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: DATABASE_URL
-              value: postgresql://cloudnative_user:NQaaTZ6DkuQZhC6jhZOBLfNcG1mQIXdX@dpg-crckfb3v2p9s73chg6cg-a.oregon-postgres.render.com/cloudnative
+              value: postgresql://farid:QgrXJ9MB04s2A3UnJlbSW1QRlLjqyXhv@dpg-crkq5km8ii6s738551t0-a.oregon-postgres.render.com/sit722_yoja
 ---
 apiVersion: v1
 kind: Service
@@ -54,7 +54,7 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: DATABASE_URL
-              value: postgresql://cloudnative_user:NQaaTZ6DkuQZhC6jhZOBLfNcG1mQIXdX@dpg-crckfb3v2p9s73chg6cg-a.oregon-postgres.render.com/cloudnative
+              value: postgresql://farid:QgrXJ9MB04s2A3UnJlbSW1QRlLjqyXhv@dpg-crkq5km8ii6s738551t0-a.oregon-postgres.render.com/sit722_yoja
 ---
 apiVersion: v1
 kind: Service
